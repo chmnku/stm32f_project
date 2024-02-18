@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;debug_led/src/common/def.hg&apos; to &apos;def.h&apos;" description="Rename resource &apos;def.hg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/common/def.hg" name="def.h" stamp="1708242906423" updateReferences="true"/>
+</session>

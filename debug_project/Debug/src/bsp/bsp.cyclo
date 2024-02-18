@@ -1,0 +1,5 @@
+../src/bsp/bsp.c:13:6:bspInit	1
+../src/bsp/bsp.c:24:6:delay	1
+../src/bsp/bsp.c:29:10:millis	1
+../src/bsp/bsp.c:35:6:SystemClock_Config	3
+../src/bsp/bsp.c:85:6:Error_Handler	1

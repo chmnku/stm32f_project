@@ -1,0 +1,10 @@
+18:23:51 **** Incremental Build of configuration Debug for project led_contol ****
+make -j10 all 
+arm-none-eabi-size  led_contol.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6000	     20	   1572	   7592	   1da8	led_contol.elf
+Finished building: default.size.stdout
+ 
+
+18:23:51 Build Finished. 0 errors, 0 warnings. (took 283ms)
+

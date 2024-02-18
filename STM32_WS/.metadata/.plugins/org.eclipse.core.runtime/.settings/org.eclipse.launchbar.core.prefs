@@ -1,0 +1,15 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:led_contol Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:debug_led,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:led_control,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:led_c8t6,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:led_ccu6
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:debug_led/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:led_c8t6/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:led_contol\ Debug\ (1)/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:led_contol\ Debug\ (1)/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:led_contol/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:led_contol/activeLaunchTarget=null\:---
+org.eclipse.launchbar.core.descriptorType.default\:led_contol\ Debug\ (1)/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:led_contol\ Debug\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:led_contol\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:led_contol\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

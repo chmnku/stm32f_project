@@ -1,0 +1,15 @@
+/*
+ * bsp.c
+ *
+ *  Created on: Feb 18, 2024
+ *      Author: chmnku
+ */
+
+
+#include "def.h"
+
+void bspInit(void)
+{
+  //
+}
+

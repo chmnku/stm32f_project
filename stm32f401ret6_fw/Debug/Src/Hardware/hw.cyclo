@@ -1,0 +1,3 @@
+../Src/Hardware/hw.c:14:6:hwInit	1
+../Src/Hardware/hw.c:27:6:SystemClock_Config	3
+../Src/Hardware/hw.c:77:6:Error_Handler	1
