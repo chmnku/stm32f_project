@@ -1,0 +1,3 @@
+2024-02-19 00:04:19,111 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2024-02-19 00:04:19,142 [INFO] ApiDb:448 - Save user favorites file /Users/chmnku/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2024-02-19 00:04:19,143 [INFO] ApiDb:452 - User favorites MCUs=[]

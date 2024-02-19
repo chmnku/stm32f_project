@@ -1,0 +1,4 @@
+../Src/App/ap.c:11:6:apInit	4	static
+../Src/App/ap.c:16:6:apMain	8	static
+../Src/App/ap.c:26:6:delay	16	static
+../Src/App/ap.c:31:10:millis	4	static

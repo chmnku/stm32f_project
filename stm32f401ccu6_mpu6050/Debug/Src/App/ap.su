@@ -1,0 +1,6 @@
+/Users/chmnku/Developement/STM32_Project/stm32f401ccu6_mpu6050/Src/Lib/mx_ccu6/Drivers/CMSIS/Include/core_cm4.h:2064:26:ITM_SendChar	16	static,ignoring_inline_asm
+../Src/App/ap.c:15:6:apInit	4	static
+../Src/App/ap.c:20:6:apMain	24	static
+../Src/App/ap.c:38:6:delay	16	static
+../Src/App/ap.c:44:10:millis	4	static
+../Src/App/ap.c:51:5:_write	32	static

@@ -1,0 +1,17 @@
+/*
+ * hw.c
+ *
+ *  Created on: Feb 19, 2024
+ *      Author: chmnku
+ */
+
+
+#include "hw.h"
+
+void hwInit(void)
+{
+  bspInit();
+
+  HAL_Init();
+  SystemClock_Config();
+}

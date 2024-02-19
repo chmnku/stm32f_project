@@ -1,0 +1,35 @@
+/*
+ * ap.c
+ *
+ *  Created on: Feb 20, 2024
+ *      Author: chmnku
+ */
+
+
+#include "ap.h"
+
+void apInit(void)
+{
+  //
+}
+
+void apMain(void)
+{
+  while(1)
+  {
+    //
+    HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+    delay(1000);
+  }
+}
+
+void delay(uin32_t ms)
+{
+  HAL_Delay(ms);
+}
+
+uint32_t millis(void)
+{
+
+  return 0;
+}
