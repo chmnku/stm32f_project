@@ -34,21 +34,7 @@ void apMain(void)
 //    CDC_Transmit_FS("test\n", 6);
 
     // Modified Code
-    if(millis() - pre_time >= 500)
-    {
-      pre_time = millis();
-      HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
-    }
 
-    if (cdcAvailable() > 0)
-    {
-      uint8_t rx_data;
-
-      rx_data = cdcRead();
-      cdcWrite((uint8_t *)"RxData : ", 10);
-      cdcWrite(&rx_data, 1);
-      cdcWrite((uint8_t *)"\n", 2);
-    }
   }
 }
 

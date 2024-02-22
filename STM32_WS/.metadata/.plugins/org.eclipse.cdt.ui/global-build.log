@@ -1,37 +1,14 @@
-18:40:20 **** Incremental Build of configuration Debug for project usb_cdc ****
+22:48:00 **** Incremental Build of configuration Debug for project usb_cdc ****
 make -j10 all 
-arm-none-eabi-gcc "../Src/App/ap.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32F401xC -c -I"/Users/chmnku/Developement/STM32_Project/stm32f401ccu6_cdc/Src" -I"/Users/chmnku/Developement/STM32_Project/stm32f401ccu6_cdc/Src/App" -I"/Users/chmnku/Developement/STM32_Project/stm32f401ccu6_cdc/Src/Bsp" -I"/Users/chmnku/Developement/STM32_Project/stm32f401ccu6_cdc/Src/Common" -I"/Users/chmnku/Developement/STM32_Project/stm32f401ccu6_cdc/Src/Hw" -I"/Users/chmnku/Developement/STM32_Project/stm32f401ccu6_cdc/Src/Lib" -I"/Users/chmnku/Developement/STM32_Project/stm32f401ccu6_cdc/Src/Lib/mx_ccu6/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/Users/chmnku/Developement/STM32_Project/stm32f401ccu6_cdc/Src/Lib/mx_ccu6/Drivers/CMSIS/Include" -I"/Users/chmnku/Developement/STM32_Project/stm32f401ccu6_cdc/Src/Lib/mx_ccu6/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/Users/chmnku/Developement/STM32_Project/stm32f401ccu6_cdc/Src/Lib/mx_ccu6/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"/Users/chmnku/Developement/STM32_Project/stm32f401ccu6_cdc/Src/Lib/mx_ccu6/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"/Users/chmnku/Developement/STM32_Project/stm32f401ccu6_cdc/Src/Lib/mx_ccu6/USB_DEVICE/App" -I"/Users/chmnku/Developement/STM32_Project/stm32f401ccu6_cdc/Src/Lib/mx_ccu6/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/App/ap.d" -MT"Src/App/ap.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/App/ap.o"
-../Src/App/ap.c: In function 'apMain':
-../Src/App/ap.c:27:21: warning: pointer targets in passing argument 1 of 'CDC_Transmit_FS' differ in signedness [-Wpointer-sign]
-   27 |     CDC_Transmit_FS("test\n", 6);
-      |                     ^~~~~~~~
-      |                     |
-      |                     char *
-../Src/App/ap.c:11:41: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
-   11 | extern uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len);
-      |                                ~~~~~~~~~^~~
-arm-none-eabi-gcc -o "usb_cdc.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/chmnku/Developement/STM32_Project/stm32f401ccu6_cdc/Src/Bsp/ldscript/STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="usb_cdc.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: usb_cdc.elf
- 
 arm-none-eabi-size  usb_cdc.elf 
-arm-none-eabi-objdump -h -S usb_cdc.elf  > "usb_cdc.list"
    text	   data	    bss	    dec	    hex	filename
-  27984	    264	   6160	  34408	   8668	usb_cdc.elf
+  28272	    264	   6160	  34696	   8788	usb_cdc.elf
 Finished building: default.size.stdout
  
-Finished building: usb_cdc.list
- 
-18:41:10 **** Incremental Build of configuration Debug for project usb_cdc ****
+22:48:18 **** Incremental Build of configuration Debug for project usb_cdc ****
 make -j10 all 
 arm-none-eabi-size  usb_cdc.elf 
    text	   data	    bss	    dec	    hex	filename
-  27984	    264	   6160	  34408	   8668	usb_cdc.elf
-Finished building: default.size.stdout
- 
-18:45:00 **** Incremental Build of configuration Debug for project usb_cdc ****
-make -j10 all 
-arm-none-eabi-size  usb_cdc.elf 
-   text	   data	    bss	    dec	    hex	filename
-  27984	    264	   6160	  34408	   8668	usb_cdc.elf
+  28272	    264	   6160	  34696	   8788	usb_cdc.elf
 Finished building: default.size.stdout
  

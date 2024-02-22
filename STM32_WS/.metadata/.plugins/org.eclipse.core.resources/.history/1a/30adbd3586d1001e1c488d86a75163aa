@@ -46,8 +46,6 @@ void apMain(void)
 
       rx_data = cdcRead();
       cdcWrite((uint8_t *)"RxData : ", 10);
-      cdcWrite(&rx_data, 1);
-      cdcWrite((uint8_t *)"\n", 2);
     }
   }
 }
