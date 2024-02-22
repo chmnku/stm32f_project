@@ -8,6 +8,8 @@
 
 #include "ap.h"
 
+extern uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len);
+
 void apInit(void)
 {
   //
@@ -19,7 +21,10 @@ void apMain(void)
   {
     // Internal LED (PC13)
     HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
-    delay(2000);
+    delay(1500);
+
+//    CDC_Transmit_FS(uint8_t* Buf, uint16_t Len);
+    CDC_Transmit_FS("test\n", 6);
   }
 }
 
@@ -30,6 +35,5 @@ void delay(uint32_t ms)
 
 uint32_t millis(void)
 {
-
-  return 0;
+  return HAL_GetTick();
 }
