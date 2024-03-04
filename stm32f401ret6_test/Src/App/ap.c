@@ -8,6 +8,8 @@
 
 #include "ap.h"
 
+void delay(uint32_t ms);
+
 void apInit(void)
 {
   //
@@ -17,6 +19,12 @@ void apMain(void)
 {
   while(1)
   {
-    //
+    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+    delay(100);
   }
+}
+
+void delay(uint32_t ms)
+{
+  HAL_Delay(ms);
 }

@@ -1,0 +1,17 @@
+/*
+ * bsp.c
+ *
+ *  Created on: Mar 4, 2024
+ *      Author: chmnku
+ */
+
+
+#include "bsp.h"
+
+void bspInit(void)
+{
+  HAL_Init();
+  SystemClock_Config();
+
+
+}

@@ -14,4 +14,6 @@
 void apInit(void);
 void apMain(void);
 
+void delay(uint32_t ms);
+
 #endif /* SRC_APP_AP_H_ */

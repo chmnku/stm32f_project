@@ -26,5 +26,6 @@ Src/App \
 Src/Bsp \
 Src/Bsp/startup \
 Src/Hw \
+Src/Lib/mx_ret6/Drivers/STM32F4xx_HAL_Driver/Src \
 Src \
 

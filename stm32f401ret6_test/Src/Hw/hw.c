@@ -10,5 +10,5 @@
 
 void hwInit(void)
 {
-  //
+  bspInit();
 }
