@@ -25,7 +25,16 @@ Src/Hw/hw.o: ../Src/Hw/hw.c ../Src/Hw/hw.h ../Src/Hw/hw_def.h \
  /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
  /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
  /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
- /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+ /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+ /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
+ /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
+ /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+ /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/USB_DEVICE/App/usb_device.h \
+ /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
+ /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/USB_DEVICE/Target/usbd_conf.h \
+ /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/main.h \
+ /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/App/ap.h \
+ /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Hw/hw.h
 ../Src/Hw/hw.h:
 ../Src/Hw/hw_def.h:
 /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Bsp/bsp.h:
@@ -55,3 +64,12 @@ Src/Hw/hw.o: ../Src/Hw/hw.c ../Src/Hw/hw.h ../Src/Hw/hw_def.h \
 /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h:
 /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:
 /Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
+/Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h:
+/Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h:
+/Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h:
+/Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/USB_DEVICE/App/usb_device.h:
+/Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
+/Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Lib/mx_ret6/USB_DEVICE/Target/usbd_conf.h:
+/Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/main.h:
+/Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/App/ap.h:
+/Users/chmnku/Developement/STM32_Project/stm32f401ret6_test/Src/Hw/hw.h:
